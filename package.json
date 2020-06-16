@@ -1,0 +1,60 @@
+{
+  "name": "elc-coding-test-master-aede79cc272cea41a964edefb1387f125bfca040",
+  "version": "0.1.0",
+  "description": "The Web Starter Template (WST) is a starting point for creating Front End Web applications.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "gulp-install": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "7.0.0-beta.34",
+    "@babel/preset-react": "^7.0.0-beta.36",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.26.3",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-git": "^2.5.0",
+    "gulp-imagemin": "4.0.0",
+    "gulp-mustache": "3.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "2.6.1",
+    "nodemon": "^1.14.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "uglify-js": "3.2.2",
+    "webpack": "3.10.0",
+    "webpack-stream": "4.0.0"
+  },
+  "scripts": {
+    "servers": "SET NODE_ENV=development gulp watch & nodemon server/app.js",
+    "dev-server": "SET NODE_ENV=development gulp dev_server & nodemon server/app.js",
+    "node-server": "SET NODE_ENV=development & nodemon server/app.js",
+    "prod": "SET NODE_ENV=production gulp prod & nodemon server/app.js",
+    "dev-tests": "NODE_ENV=development Sgulp tests",
+    "image-min": "SET NODE_ENV=development gulp images & nodemon server/app.js",
+    "sass": "SET NODE_ENV=development gulp sass & nodemon server/app.js",
+    "third-party": "SET NODE_ENV=development gulp vendor & nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "Front",
+    "End",
+    "Template"
+  ],
+  "author": "Shaun Hinchy",
+  "license": "MIT"
+}
